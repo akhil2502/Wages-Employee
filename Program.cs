@@ -6,9 +6,8 @@ namespace Wage_employee
     {
         static void Main(string[] args)
         {
-
             EmployeeWage empWage = new EmployeeWage();
-            empWage.attendance()
+            empWage.dailyWage();
         }
     }
 }
