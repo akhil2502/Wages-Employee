@@ -6,7 +6,9 @@ namespace Wage_employee
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome");
+
+            EmployeeWage empWage = new EmployeeWage();
+            empWage.attendance()
         }
     }
 }
